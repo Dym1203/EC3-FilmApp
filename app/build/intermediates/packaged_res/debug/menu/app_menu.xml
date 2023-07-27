@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/inicioFragment"
+        android:title="Inicio"
+        android:icon="@drawable/ic_principal"/>
+
+    <item android:id="@id/movieListadoFragment"
+        android:title="Listado"
+        android:icon="@drawable/ic_view_list" />
+
+    <item android:id="@id/movieFavoriteFragment"
+        android:title="Favorito"
+        android:icon="@drawable/ic_favorite" />
+
+    <item android:id="@id/infoFragment"
+        android:title="Info"
+        android:icon="@drawable/ic_info" />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/movieListadoFragment"
+        android:name="com.ec3.dylan.myapplication.ui.fragments.MovieListadoFragment"
+        android:label="fragment_movie_listado"
+        tools:layout="@layout/fragment_movie_listado" />
+    <fragment
+        android:id="@+id/movieFavoriteFragment"
+        android:name="com.ec3.dylan.myapplication.ui.fragments.MovieFavoriteFragment"
+        android:label="fragment_movie_favorite"
+        tools:layout="@layout/fragment_movie_favorite" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.ec3.dylan.myapplication.ui.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.ec3.dylan.myapplication.ui.fragments.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+</navigation>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FilmApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descripcion">Tu solución para explorar y conocer\n detalles sobre películas próximas a estrenarse,\n directamente desde la comodidad de tu dispositivo móvil.</string>
+    <string name="version">Versión 1.2.1</string>
+    <string name="copyright">FilmApp 2023 © Derechos Reservados</string>
+    <string name="contenido">
+        ¡Hola, soy Dylan Mejía y les presento mi aplicación "FilmApp", desarrollada como parte de la Evaluación Continua 3 del curso "Desarrollo de Aplicaciones Móviles 2". Esta app tiene como objetivo emular el servicio de cine ofrecido por diversas cadenas en el país, pero esta vez a través de dispositivos móviles, utilizando un API para obtener los datos necesarios.</string>
+</resources>
