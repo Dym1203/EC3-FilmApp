@@ -4,9 +4,9 @@ package com.ec3.dylan.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -17,12 +17,12 @@ import java.lang.String;
 
 public final class FragmentMovieListadoBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final RecyclerView rvMovieList;
 
-  private FragmentMovieListadoBinding(@NonNull FrameLayout rootView,
+  private FragmentMovieListadoBinding(@NonNull ConstraintLayout rootView,
       @NonNull RecyclerView rvMovieList) {
     this.rootView = rootView;
     this.rvMovieList = rvMovieList;
@@ -30,7 +30,7 @@ public final class FragmentMovieListadoBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -61,7 +61,7 @@ public final class FragmentMovieListadoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMovieListadoBinding((FrameLayout) rootView, rvMovieList);
+      return new FragmentMovieListadoBinding((ConstraintLayout) rootView, rvMovieList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

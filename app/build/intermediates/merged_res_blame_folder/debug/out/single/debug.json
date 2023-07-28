@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\layout\\fragment_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\drawable_poster.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\drawable\\poster.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\drawable_ic_principal.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\drawable\\ic_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\drawable_poster.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\drawable\\poster.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\layout_fragment_movie_favorite.xml.flat",
@@ -72,28 +72,28 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\layout_fragment_info.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\layout\\fragment_info.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\layout_fragment_info.xml.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\layout\\fragment_info.xml"
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\drawable_comidacine.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\drawable\\comidacine.png"
     },
     {
-        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\font_fredoka_one.xml.flat",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\navigation_movie_graph.xml.flat",
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-main-53:\\navigation\\movie_graph.xml"
+    },
+    {
+        "merged": "com.ec3.dylan.myapplication.app-merged_res-51:/layout_fragment_movie_listado.xml.flat",
+        "source": "com.ec3.dylan.myapplication.app-main-53:/layout/fragment_movie_listado.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5\\com.ec3.dylan.myapplication.app-merged_res-51:\\mipmap-hdpi_ic_launcher_round.png.flat",
