@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 class MovieListViewModel: ViewModel() {
 
     /*val movies : MutableLiveData<List<Movie>> = MutableLiveData<List<Movie>>()*/
-    private val _movies : MutableLiveData<List<Movie>> = MutableLiveData<List<Movie>>()
+    private var _movies : MutableLiveData<List<Movie>> = MutableLiveData<List<Movie>>()
     val movies : LiveData<List<Movie>> = _movies
 
     /*val repository = MovieRepository()*/

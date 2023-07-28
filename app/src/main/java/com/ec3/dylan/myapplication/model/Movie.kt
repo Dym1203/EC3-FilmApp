@@ -4,13 +4,13 @@ import com.google.gson.annotations.SerializedName
 
 data class Movie(
     @SerializedName("original_title")
-    val originalTitle: String,
+    var titulo: String,
     @SerializedName("overview")
-    val overview: String,
+    var descripcion: String,
     @SerializedName("poster_path")
-    val posterPath: String,
+    var poster: String,
     @SerializedName("release_date")
-    val releaseDate: String
+    var fechaLanzamiento: String
 )
 fun getData() : List<Movie> {
     return listOf(

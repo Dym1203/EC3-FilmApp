@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import com.ec3.dylan.myapplication.databinding.FragmentMovieListadoBinding
-import com.ec3.dylan.myapplication.model.getData
 import com.ec3.dylan.myapplication.ui.viewmodels.MovieListViewModel
 
 class MovieListadoFragment : Fragment() {
@@ -33,13 +31,13 @@ class MovieListadoFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val adapter = RVMovieListAdapter(listOf())
         binding.rvMovieList.adapter = adapter
-        viewModel.movies.observe(requireActivity()) { movies ->
+        viewModel.movies.observe(this) { movies ->
             movies?.let {
                 adapter.movies = it
                 adapter.notifyDataSetChanged()
             }
-            viewModel.getMoviesFromService()
         }
+        viewModel.getMoviesFromService()
         /*viewModel.getMovies()*/
     }
 

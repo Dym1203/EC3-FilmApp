@@ -25,16 +25,16 @@ class RVMovieListAdapter(var movies : List<Movie>) : RecyclerView.Adapter<MovieV
     /**/
     class MovieVH(private val binding : ItemMovieBinding) : ViewHolder(binding.root) {
         fun bind(movie : Movie) {
-            binding.txtmovietitle.text = movie.originalTitle
+            binding.txtmovietitle.text = movie.titulo
             val baseImageUrl = "https://image.tmdb.org/t/p/"
             val posterSize = "w300"
-            val posterPath = movie.posterPath
+            val posterPath = movie.poster
             val imageUrl = "$baseImageUrl$posterSize$posterPath"
             /*Glide*/
             Glide.with(binding.root)
                 .load(imageUrl)
                 .into(binding.imgmovieposter)
-            binding.txtmovieoverview.text = movie.overview
-            binding.txtmovierelease.text = movie.releaseDate
+            binding.txtmovieoverview.text = movie.descripcion
+            binding.txtmovierelease.text = movie.fechaLanzamiento
         }
     }

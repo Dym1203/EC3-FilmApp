@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitHelper {
     private val retrofit : Retrofit = Retrofit.Builder()
-        .baseUrl("https://api.themoviedb.org/3/")
+        .baseUrl("https://api.themoviedb.org/3/movie/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
     val movieService : MovieService = retrofit.create(MovieService::class.java)
